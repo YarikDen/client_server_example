@@ -1,0 +1,40 @@
+//---------------------------------------------------------------------------
+
+#ifndef mainH
+#define mainH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.Menus.hpp>
+#include "Info.h"
+#include <Vcl.ExtCtrls.hpp>
+#pragma comment(lib,"ws2_32.lib")
+#include <WS2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <conio.h>
+#include <Windows.h>
+
+//---------------------------------------------------------------------------
+class TForm_main : public TForm
+{
+__published:	// IDE-managed Components
+	TMemo *Memo_Activity;
+	TLabel *Label_Activity;
+	TButton *Button_Start;
+	TButton *Button_Stop;
+	TMainMenu *MainMenu1;
+	TMenuItem *N_Info;
+	TLabeledEdit *LabeledEdit_Port;
+	void __fastcall N_InfoClick(TObject *Sender);
+	void __fastcall Button_StartClick(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm_main(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm_main *Form_main;
+//---------------------------------------------------------------------------
+#endif

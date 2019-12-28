@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.247,D:\Embarcadero_projects_C++\Lab_6_Client_Server\Client\main.dfm=D:\Embarcadero_projects_C++\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.853,D:\Embarcadero_projects_C++\Lab_6_Client_Server\Client\ClientPCH1.h=D:\Embarcadero_projects_C++\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.492,=D:\Embarcadero_projects_C++\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.688,=D:\Embarcadero_projects_C++\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.703,=D:\Embarcadero_projects_C++\Lab_6_Client_Server\Client\Info.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.599,D:\Embarcadero_projects_C++\Lab_6_Client_Server\Client\Client.cbproj=D:\Embarcadero_projects_C++\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.247,D:\Embarcadero_projects_C++\Lab_6_Client_Server\Client\main.cpp=D:\Embarcadero_projects_C++\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.247,D:\Embarcadero_projects_C++\Lab_6_Client_Server\Client\main.h=D:\Embarcadero_projects_C++\Unit1.h</Transaction>
+  </Transactions>
+</BorlandProject>

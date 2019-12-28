@@ -1,0 +1,84 @@
+object Form_main: TForm_main
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Server'
+  ClientHeight = 299
+  ClientWidth = 553
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label_Activity: TLabel
+    Left = 48
+    Top = 29
+    Width = 94
+    Height = 23
+    Caption = #1047#39#1108#1076#1085#1072#1085#1085#1103':'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Memo_Activity: TMemo
+    Left = 48
+    Top = 66
+    Width = 249
+    Height = 121
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 0
+  end
+  object Button_Start: TButton
+    Left = 48
+    Top = 216
+    Width = 75
+    Height = 25
+    Caption = #1047#1072#1087#1091#1089#1090#1080#1090#1080
+    TabOrder = 1
+    OnClick = Button_StartClick
+  end
+  object Button_Stop: TButton
+    Left = 384
+    Top = 216
+    Width = 75
+    Height = 25
+    Caption = #1042#1080#1084#1082#1085#1091#1090#1080
+    TabOrder = 2
+  end
+  object LabeledEdit_Port: TLabeledEdit
+    Left = 384
+    Top = 80
+    Width = 121
+    Height = 21
+    EditLabel.Width = 109
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Enter a port of server:'
+    TabOrder = 3
+  end
+  object Button1: TButton
+    Left = 223
+    Top = 216
+    Width = 130
+    Height = 25
+    Caption = #1055#1086#1082#1072#1079#1072#1090#1080' '#1055#1086#1088#1090' '#1089#1077#1088#1074#1077#1088#1072
+    TabOrder = 4
+  end
+  object MainMenu1: TMainMenu
+    object N_Info: TMenuItem
+      Caption = #1044#1086#1074#1110#1076#1082#1072
+      OnClick = N_InfoClick
+    end
+  end
+end
